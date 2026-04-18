@@ -1,0 +1,50 @@
+[
+  {
+    "id": "LAX",
+    "name": "Los Angeles",
+    "group": 1,
+    "val": 20
+  },
+  {
+    "id": "SFO",
+    "name": "San Francisco",
+    "group": 1,
+    "val": 18
+  },
+  {
+    "id": "JFK",
+    "name": "New York",
+    "group": 2,
+    "val": 25
+  },
+  {
+    "id": "CHI",
+    "name": "Chicago O'Hare",
+    "group": 2,
+    "val": 22
+  },
+  {
+    "id": "ATL",
+    "name": "Atlanta",
+    "group": 3,
+    "val": 30
+  },
+  {
+    "id": "DFW",
+    "name": "Dallas",
+    "group": 3,
+    "val": 24
+  },
+  {
+    "id": "DEN",
+    "name": "Denver",
+    "group": 2,
+    "val": 20
+  },
+  {
+    "id": "LAS",
+    "name": "Las Vegas",
+    "group": 1,
+    "val": 15
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "source": "LAX",
+    "target": "SFO",
+    "w": 45
+  },
+  {
+    "source": "LAX",
+    "target": "OAK",
+    "w": 23
+  },
+  {
+    "source": "LAX",
+    "target": "SJC",
+    "w": 18
+  },
+  {
+    "source": "LAX",
+    "target": "SMF",
+    "w": 56
+  },
+  {
+    "source": "SFO",
+    "target": "BUR",
+    "w": 20
+  },
+  {
+    "source": "SFO",
+    "target": "ONT",
+    "w": 45
+  },
+  {
+    "source": "SFO",
+    "target": "SAN",
+    "w": 32
+  },
+  {
+    "source": "SFO",
+    "target": "SNA",
+    "w": 34
+  },
+  {
+    "source": "OAK",
+    "target": "BUR",
+    "w": 12
+  },
+  {
+    "source": "OAK",
+    "target": "LGB",
+    "w": 28
+  },
+  {
+    "source": "OAK",
+    "target": "ONT",
+    "w": 15
+  },
+  {
+    "source": "OAK",
+    "target": "SAN",
+    "w": 30
+  },
+  {
+    "source": "SJC",
+    "target": "BUR",
+    "w": 14
+  },
+  {
+    "source": "SJC",
+    "target": "ONT",
+    "w": 19
+  },
+  {
+    "source": "SJC",
+    "target": "SAN",
+    "w": 25
+  },
+  {
+    "source": "SJC",
+    "target": "SNA",
+    "w": 22
+  },
+  {
+    "source": "SMF",
+    "target": "BUR",
+    "w": 30
+  },
+  {
+    "source": "SMF",
+    "target": "LGB",
+    "w": 40
+  },
+  {
+    "source": "SMF",
+    "target": "ONT",
+    "w": 35
+  },
+  {
+    "source": "SMF",
+    "target": "SAN",
+    "w": 42
+  }
+]

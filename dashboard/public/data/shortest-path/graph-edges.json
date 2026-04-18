@@ -1,0 +1,57 @@
+[
+  {
+    "source": "LAX",
+    "target": "SFO",
+    "weight": 65
+  },
+  {
+    "source": "LAX",
+    "target": "JFK",
+    "weight": 350
+  },
+  {
+    "source": "SFO",
+    "target": "JFK",
+    "weight": 345
+  },
+  {
+    "source": "LAX",
+    "target": "CHI",
+    "weight": 240
+  },
+  {
+    "source": "CHI",
+    "target": "JFK",
+    "weight": 130
+  },
+  {
+    "source": "SFO",
+    "target": "DEN",
+    "weight": 150
+  },
+  {
+    "source": "DEN",
+    "target": "JFK",
+    "weight": 220
+  },
+  {
+    "source": "LAX",
+    "target": "LAS",
+    "weight": 45
+  },
+  {
+    "source": "LAS",
+    "target": "DFW",
+    "weight": 150
+  },
+  {
+    "source": "DFW",
+    "target": "ATL",
+    "weight": 120
+  },
+  {
+    "source": "ATL",
+    "target": "JFK",
+    "weight": 140
+  }
+]

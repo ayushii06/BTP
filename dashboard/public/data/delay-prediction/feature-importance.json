@@ -1,0 +1,22 @@
+[
+  {
+    "feature": "Departure Time",
+    "importance": 0.35
+  },
+  {
+    "feature": "Origin Airport",
+    "importance": 0.22
+  },
+  {
+    "feature": "Airline Carrier",
+    "importance": 0.18
+  },
+  {
+    "feature": "Destination Airport",
+    "importance": 0.15
+  },
+  {
+    "feature": "Time of Day (Engineered)",
+    "importance": 0.1
+  }
+]

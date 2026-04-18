@@ -1,0 +1,52 @@
+[
+  {
+    "source": "OAK",
+    "target": "BUR",
+    "w": 12
+  },
+  {
+    "source": "SJC",
+    "target": "BUR",
+    "w": 14
+  },
+  {
+    "source": "OAK",
+    "target": "ONT",
+    "w": 15
+  },
+  {
+    "source": "LAX",
+    "target": "SJC",
+    "w": 18
+  },
+  {
+    "source": "SFO",
+    "target": "BUR",
+    "w": 20
+  },
+  {
+    "source": "SJC",
+    "target": "SNA",
+    "w": 22
+  },
+  {
+    "source": "LAX",
+    "target": "OAK",
+    "w": 23
+  },
+  {
+    "source": "SJC",
+    "target": "SAN",
+    "w": 25
+  },
+  {
+    "source": "OAK",
+    "target": "LGB",
+    "w": 28
+  },
+  {
+    "source": "SMF",
+    "target": "BUR",
+    "w": 30
+  }
+]

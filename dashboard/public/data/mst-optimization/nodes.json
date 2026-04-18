@@ -1,0 +1,62 @@
+[
+  {
+    "id": "BUR",
+    "name": "Burbank",
+    "group": 1,
+    "val": 5
+  },
+  {
+    "id": "LGB",
+    "name": "Long Beach",
+    "group": 1,
+    "val": 4
+  },
+  {
+    "id": "LAX",
+    "name": "Los Angeles",
+    "group": 1,
+    "val": 25
+  },
+  {
+    "id": "OAK",
+    "name": "Oakland",
+    "group": 2,
+    "val": 12
+  },
+  {
+    "id": "ONT",
+    "name": "Ontario",
+    "group": 2,
+    "val": 8
+  },
+  {
+    "id": "SMF",
+    "name": "Sacramento",
+    "group": 3,
+    "val": 9
+  },
+  {
+    "id": "SAN",
+    "name": "San Diego",
+    "group": 3,
+    "val": 15
+  },
+  {
+    "id": "SFO",
+    "name": "San Francisco",
+    "group": 2,
+    "val": 22
+  },
+  {
+    "id": "SJC",
+    "name": "San Jose",
+    "group": 3,
+    "val": 14
+  },
+  {
+    "id": "SNA",
+    "name": "Santa Ana",
+    "group": 1,
+    "val": 7
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cluster": "Cluster 1 (Efficient)",
+    "delay_dep": 5.2,
+    "delay_arr": 4.1,
+    "cancel_rate": 0.01,
+    "flights": 8500
+  },
+  {
+    "cluster": "Cluster 2 (Weather Impacted)",
+    "delay_dep": 18.5,
+    "delay_arr": 22.1,
+    "cancel_rate": 0.05,
+    "flights": 3200
+  },
+  {
+    "cluster": "Cluster 3 (Congested)",
+    "delay_dep": 15,
+    "delay_arr": 16.5,
+    "cancel_rate": 0.02,
+    "flights": 6700
+  },
+  {
+    "cluster": "Cluster 4 (Problematic)",
+    "delay_dep": 45.2,
+    "delay_arr": 48,
+    "cancel_rate": 0.09,
+    "flights": 1100
+  }
+]
