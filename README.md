@@ -1,93 +1,105 @@
 # ✈️ Airplane Connectivity Analysis & Optimization
 
-### 🚀 Using Machine Learning, Graph Algorithms & Optimization
+### 🚀 Machine Learning + Graph Algorithms + Interactive Dashboard
 
 ---
 
 ## 📌 Overview
 
-This project focuses on analyzing and optimizing airplane connectivity using a combination of **Machine Learning, Graph Theory, and Optimization techniques**. The goal is to improve operational efficiency, reduce flight delays, and enhance connectivity across airports using real-world flight data.
+This project focuses on analyzing and optimizing airplane connectivity using a combination of **Machine Learning, Graph Algorithms, and Data Visualization**. It leverages real-world flight data to predict delays, profile airport behavior, optimize routes, and improve network efficiency.
 
-Instead of treating flights as isolated events, this project models the aviation system as an interconnected network, enabling both **predictive insights** and **structural optimization**.
+To make the insights more practical and interactive, the project also includes a **modern dashboard built with Next.js**, allowing users to explore results visually and interact with the system.
 
 ---
 
-## 🧠 Key Components
+## 🧠 Core Components
 
 ### 1️⃣ Flight Delay Prediction (Machine Learning)
 
-A supervised learning model is built to predict whether a flight will be delayed or not.
-
-* 📊 Uses features like departure time, airline, route, and seasonality
-* ⚙️ Implements **Gradient Boosting Classifier**
-* 🔄 Handles class imbalance using **SMOTE**
-* 🎯 Helps airlines anticipate delays and improve scheduling
+* 📊 Supervised learning using **Gradient Boosting Classifier**
+* ⚙️ Features include departure time, airline, route, and engineered features (time of day, month)
+* 🔄 Handled class imbalance using **SMOTE**
+* 🎯 Predicts whether a flight will be delayed
 
 ---
 
-### 2️⃣ Airport Profiling (Clustering Analysis)
+### 2️⃣ Airport Profiling (Clustering)
 
-Airports are grouped based on their operational behavior using **K-Means Clustering**.
+* 🧩 Uses **K-Means clustering** (unsupervised learning)
+* 📍 Aggregates flight data → airport-level insights
+* 📉 Groups airports into categories:
 
-* 📍 Converts flight-level data → airport-level insights
-* 📉 Uses delay types and cancellation rates
-* 🧩 Identifies patterns like:
-
-  * Efficient airports
-  * Traffic-heavy airports
+  * Efficient
+  * Moderate delay
+  * Traffic-heavy
   * High-delay airports
-* 🧭 Supports strategic planning and infrastructure improvements
 
 ---
 
-### 3️⃣ Shortest Route Optimization (Graph Algorithms)
+### 3️⃣ Shortest Path Analysis (Graph Algorithms)
 
-The flight network is modeled as a **weighted directed graph**:
-
+* 🌐 Models flight network as a **weighted directed graph**
 * 🟢 Nodes → Airports
 * 🔗 Edges → Flights
 * ⏱️ Weights → Flight time
-
-Using a Dijkstra-based approach, the system:
-
-* Finds the **shortest (fastest) route** between airports
-* Provides **alternative near-optimal paths**
-* Helps in route planning and travel optimization
+* ⚡ Uses Dijkstra-based approach to find fastest routes
 
 ---
 
-### 4️⃣ Airport Connectivity Optimization (Minimum Spanning Tree)
+### 4️⃣ Airport Connectivity Optimization (MST)
 
-To optimize connectivity within a region (e.g., California), the project uses:
+* 🌳 Uses **Minimum Spanning Tree (Kruskal’s Algorithm)**
+* 📉 Edge weights = carrier delay
+* 🔗 Connects all airports with minimum total delay
+* 🚀 Demonstrates efficient network restructuring
 
-* 🌳 **Minimum Spanning Tree (MST)**
+---
 
-* ⚙️ Implemented using **Kruskal’s Algorithm**
+## 📊 Interactive Dashboard
 
-* 📉 Edge weight = carrier delay
+A fully functional **dashboard built using Next.js and React** is included to visualize and interact with all components of the project.
 
-* 🔗 Connects all airports with **minimum total delay**
+### 🔍 Features:
 
-* 🚀 Demonstrates how network restructuring can significantly reduce inefficiencies
+* 📈 Delay analytics and model performance metrics
+* 🧠 Airport clustering visualization
+* 🌐 Interactive shortest path exploration
+* 🌳 MST-based network optimization visualization
+
+### 🎯 Highlights:
+
+* Clean and modern UI (Tailwind CSS)
+* Interactive graphs and charts
+* Algorithm-to-visual mapping (each section reflects underlying logic)
+* Designed for academic demo and real-world usability
 
 ---
 
 ## ⚙️ Tech Stack
 
+### 🖥️ Backend / Data Processing
+
 * 🐍 Python
 * 📊 Pandas, NumPy
-* 📈 Matplotlib, Seaborn
 * 🤖 Scikit-learn, Imbalanced-learn
-* 🌐 NetworkX (Graph Algorithms)
+* 🌐 NetworkX
+
+### 🎨 Frontend / Dashboard
+
+* ⚛️ Next.js (App Router)
+* 🎨 Tailwind CSS
+* 📊 Recharts / Chart.js
+* 🌐 React Force Graph (for network visualization)
 
 ---
 
 ## 🎯 Key Outcomes
 
-* 📉 Improved understanding of delay patterns
-* 🧠 Data-driven airport categorization
+* 📉 Improved understanding of flight delay patterns
+* 🧠 Data-driven airport classification
 * 🛫 Optimized route planning
-* 🌐 Efficient network connectivity using MST
+* 🌐 Efficient airport connectivity using graph theory
+* 📊 Interactive visualization for better decision-making
 
 ---
 
@@ -95,15 +107,15 @@ To optimize connectivity within a region (e.g., California), the project uses:
 
 * 🌦️ Integrate real-time weather data
 * ⚡ Use advanced models like **XGBoost / LightGBM**
-* 📍 Add cost, fuel, and traffic constraints in optimization
-* 🔄 Real-time dynamic routing
+* 🔄 Real-time route computation with APIs
+* 📍 Multi-objective optimization (time + cost + traffic)
 
 ---
 
 ## 💡 Conclusion
 
-This project demonstrates how combining **Machine Learning with Graph Algorithms** can solve real-world problems in aviation. By integrating predictive modeling with network optimization, it provides a comprehensive approach to improving airline efficiency, reducing delays, and enhancing passenger experience.
+This project demonstrates how combining **Machine Learning with Graph Algorithms and modern web technologies** can solve real-world problems in aviation. The addition of an interactive dashboard enhances usability, making the system not only analytical but also practical and user-friendly.
 
 ---
 
-⭐ *If you found this project interesting, feel free to explore, fork, or contribute!*
+⭐ *If you found this project useful, feel free to star the repo and explore further!*
